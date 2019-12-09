@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import dash
@@ -198,19 +198,4 @@ def update_graph(indicator_name, metric_2,country_value):
 
 if __name__ == '__main__':
     app.run_server()
-
-
-# In[50]:
-
-
-filename = 'nama_10_gdp_1_Data.csv'
-df = pd.read_csv(filename)
-df.head()
-df['TIME'].unique()
-
-
-# In[ ]:
-
-
-
 
