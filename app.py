@@ -16,7 +16,7 @@ filename = 'nama_10_gdp_1_Data.csv'
 df = pd.read_csv(filename)
 df.head()
 
-
+#app = dash.Dash()
 app = dash.Dash(__name__)
 server = app.server
 
